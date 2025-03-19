@@ -1,0 +1,7 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://ml-bucket
+    access_key_id = ml_testing
+    secret_access_key = ml_testing
+    endpointurl = http://192.168.68.170:9000
